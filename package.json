@@ -1,0 +1,42 @@
+{
+    "name": "@coastalwhite/v2d",
+    "version": "1.0.0",
+    "description": "An implementation of a 2 dimensional vector in Typescript",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "publishConfig": {
+      "registry":"https://npm.pkg.github.com"
+    },
+    "scripts": {
+        "prepublish": "npm run build:clean ; npm run docs",
+        "build": "tsc",
+        "build:clean": "rm -rf dist/* ; npm run build",
+        "docs": "typedoc --out docs src; echo '' > ./docs/.nojekyl",
+        "test": "mocha -r ts-node/register tests/**/*.test.ts",
+        "coverage": "nyc -r lcov -e .ts -x \"./tests\" npm run test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/coastalwhite/v2d.git"
+    },
+    "bugs": {
+        "url": "https://github.com/coastalwhite/v2d/issues"
+    },
+    "homepage": "https://github.com/coastalwhite/v2d#readme",
+    "keywords": [
+        "vector",
+        "algebra"
+    ],
+    "author": "Gijs Burghoorn",
+    "license": "ISC",
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^8.2.0",
+        "@types/chai": "^4.2.14",
+        "@types/mocha": "^8.0.3",
+        "nyc": "^15.1.0",
+        "typescript": "^4.0.2",
+        "typedoc": "^0.19.1",
+        "ts-node": "9.0.0"
+    }
+}

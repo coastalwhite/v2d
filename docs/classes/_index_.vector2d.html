@@ -1,0 +1,946 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Vector2D | @coastalwhite/v2d</title>
+	<meta name="description" content="Documentation for @coastalwhite/v2d">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">@coastalwhite/v2d</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="../modules/_index_.html">&quot;index&quot;</a>
+				</li>
+				<li>
+					<a href="_index_.vector2d.html">Vector2D</a>
+				</li>
+			</ul>
+			<h1>Class Vector2D</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>A two dimensional vector</p>
+					</div>
+					<pre><code class="language-typescript"><span class="hljs-keyword">import</span> vec2 <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;v2d&#x27;</span>
+
+<span class="hljs-keyword">let</span> v = vec2(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>);
+
+v.add(vec2(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>)); <span class="hljs-comment">// Will equal Vector2D(4,6)!</span>
+v.sub(vec2(-<span class="hljs-number">1</span>,-<span class="hljs-number">2</span>)); <span class="hljs-comment">// Will equal Vector2D(3,5)!</span></code></pre>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">Vector2D</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="_index_.vector2d.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-private tsd-is-private-protected">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_index_.vector2d.html#_x" class="tsd-kind-icon">_x</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_index_.vector2d.html#_y" class="tsd-kind-icon">_y</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="_index_.vector2d.html#x" class="tsd-kind-icon">x</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="_index_.vector2d.html#y" class="tsd-kind-icon">y</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_index_.vector2d.html#abs" class="tsd-kind-icon">abs</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_index_.vector2d.html#add" class="tsd-kind-icon">add</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_index_.vector2d.html#angle" class="tsd-kind-icon">angle</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_index_.vector2d.html#apply" class="tsd-kind-icon">apply</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_index_.vector2d.html#dot" class="tsd-kind-icon">dot</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_index_.vector2d.html#dydx" class="tsd-kind-icon">dydx</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_index_.vector2d.html#equals" class="tsd-kind-icon">equals</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_index_.vector2d.html#invert" class="tsd-kind-icon">invert</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_index_.vector2d.html#length" class="tsd-kind-icon">length</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_index_.vector2d.html#middle" class="tsd-kind-icon">middle</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_index_.vector2d.html#round" class="tsd-kind-icon">round</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_index_.vector2d.html#sca" class="tsd-kind-icon">sca</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_index_.vector2d.html#sub" class="tsd-kind-icon">sub</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_index_.vector2d.html#times" class="tsd-kind-icon">times</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_index_.vector2d.html#xsign" class="tsd-kind-icon">x<wbr>Sign</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_index_.vector2d.html#ysign" class="tsd-kind-icon">y<wbr>Sign</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Vector2D<span class="tsd-signature-symbol">(</span>x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, y<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:24</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>x: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>y: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-private tsd-is-private-protected">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_x" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> _x</h3>
+					<div class="tsd-signature tsd-kind-icon">_x<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in index.ts:23</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_y" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> _y</h3>
+					<div class="tsd-signature tsd-kind-icon">_y<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in index.ts:24</li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="x" class="tsd-anchor"></a>
+					<h3>x</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> x<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:34</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Gets the x value</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="y" class="tsd-anchor"></a>
+					<h3>y</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> y<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:41</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Gets the y value</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="abs" class="tsd-anchor"></a>
+					<h3>abs</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">abs<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:214</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a absoluted version of current vector<br>Vector2D(x,y).abs() maps to Vector2D(|x|,|y|)</p>
+								</div>
+								<a href="#note" id="note" style="color: inherit; text-decoration: none;">
+									<h1>Note</h1>
+								</a>
+								<p>Does not mutate <em>this</em> vector</p>
+								<pre><code class="language-typescript"><span class="hljs-keyword">import</span> vec2 <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;v2d&#x27;</span>
+
+<span class="hljs-keyword">let</span> v = vec2(-<span class="hljs-number">2</span>,<span class="hljs-number">3</span>);
+
+v.abs(); <span class="hljs-comment">// Will equal Vector2D(2,3)!</span></code></pre>
+							</div>
+							<h4 class="tsd-returns-title">Returns <a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="add" class="tsd-anchor"></a>
+					<h3>add</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">add<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:76</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a vector is the vector <em>v</em> added from current vector<br>Vector2D(x,y).add(Vector2D(p,q)) maps to Vector2D(x+p,y+q)</p>
+								</div>
+								<a href="#note" id="note" style="color: inherit; text-decoration: none;">
+									<h1>Note</h1>
+								</a>
+								<p>Does not mutate <em>this</em> vector</p>
+								<pre><code class="language-typescript"><span class="hljs-keyword">import</span> vec2 <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;v2d&#x27;</span>
+
+<span class="hljs-keyword">let</span> v = vec2(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>);
+
+v.add(vec2(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>)); <span class="hljs-comment">// Will equal Vector2D(4,6)!</span>
+v.add(vec2(-<span class="hljs-number">1</span>,-<span class="hljs-number">2</span>)); <span class="hljs-comment">// Will equal Vector2D(1,1)!</span></code></pre>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>v: <a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="angle" class="tsd-anchor"></a>
+					<h3>angle</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">angle<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:282</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns the angle between vector <em>v</em> and current vector<br>Vector2D(x,y).angle(Vector2D(p,q)) maps to angle(Vector2D(x,y),Vector2D(p,q))</p>
+								</div>
+								<a href="#note" id="note" style="color: inherit; text-decoration: none;">
+									<h1>Note</h1>
+								</a>
+								<p>Does not mutate <em>this</em> vector</p>
+								<pre><code class="language-typescript"><span class="hljs-keyword">import</span> vec2 <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;v2d&#x27;</span>
+
+<span class="hljs-keyword">let</span> v = vec2(<span class="hljs-number">3</span>,<span class="hljs-number">4</span>);
+
+v.angle(v); <span class="hljs-comment">// Will equal 0!</span></code></pre>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>v: <a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="apply" class="tsd-anchor"></a>
+					<h3>apply</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">apply<span class="tsd-signature-symbol">(</span>f<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>a<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:156</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Applies function f to coordinates of <em>this</em>.
+									Vector2D(x,y).apply(f) maps to Vector2D(f(x),f(y))</p>
+								</div>
+								<a href="#note" id="note" style="color: inherit; text-decoration: none;">
+									<h1>Note</h1>
+								</a>
+								<p>Does not mutate <em>this</em> vector</p>
+								<pre><code class="language-typescript"><span class="hljs-keyword">import</span> vec2 <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;v2d&#x27;</span>
+
+<span class="hljs-keyword">let</span> v = vec2(<span class="hljs-number">3</span>,<span class="hljs-number">4</span>);
+
+v.apply(<span class="hljs-function"><span class="hljs-params">a</span> =&gt;</span> <span class="hljs-built_in">Math</span>.cos(a)); <span class="hljs-comment">// Will equal Vector2D(cos(3),cos(4))!</span>
+v.apply(<span class="hljs-function"><span class="hljs-params">a</span> =&gt;</span> a % <span class="hljs-number">3</span>); <span class="hljs-comment">// Will equal Vector2D(0,1)!</span></code></pre>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>f: <span class="tsd-signature-symbol">(</span>a<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">number</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-signature">
+											<ul class="tsd-signatures tsd-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>a<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>a: <span class="tsd-signature-type">number</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="dot" class="tsd-anchor"></a>
+					<h3>dot</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">dot<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:176</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Calculates the dot-product between current vector and vector <em>v</em> and returns the result<br>Vector2D(x,y).dot(Vector2D(p,q)) maps to x<em>p+y</em>q</p>
+								</div>
+								<a href="#note" id="note" style="color: inherit; text-decoration: none;">
+									<h1>Note</h1>
+								</a>
+								<p>Does not mutate <em>this</em> vector</p>
+								<pre><code class="language-typescript"><span class="hljs-keyword">import</span> vec2 <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;v2d&#x27;</span>
+
+<span class="hljs-keyword">let</span> v = vec2(<span class="hljs-number">3</span>,<span class="hljs-number">4</span>);
+
+v.dot(vec2(<span class="hljs-number">3</span>,<span class="hljs-number">4</span>)); <span class="hljs-comment">// Will equal 25!</span>
+v.dot(vec2(<span class="hljs-number">4</span>,-<span class="hljs-number">3</span>)); <span class="hljs-comment">// Will equal 0!</span></code></pre>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>v: <a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="dydx" class="tsd-anchor"></a>
+					<h3>dydx</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">dydx<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:322</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns the tangent of current vector<br>Vector2D(x,y).dydx() maps to y/x</p>
+								</div>
+								<a href="#note" id="note" style="color: inherit; text-decoration: none;">
+									<h1>Note</h1>
+								</a>
+								<p>Does not mutate <em>this</em> vector</p>
+								<pre><code class="language-typescript"><span class="hljs-keyword">import</span> vec2 <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;v2d&#x27;</span>
+
+<span class="hljs-keyword">let</span> v = vec2(<span class="hljs-number">2</span>,<span class="hljs-number">4</span>);
+
+v.dydx(); <span class="hljs-comment">// Will equal 2!</span></code></pre>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="equals" class="tsd-anchor"></a>
+					<h3>equals</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">equals<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:56</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Checks whether a vector is equal to this vector</p>
+									<p>```typescript
+									import vec2 from &#39;v2d&#39;</p>
+								</div>
+								<p>let v = vec2(2,3);</p>
+								<p>v.equals(vec2(2,3)); // Will equal true!
+								v.equals(vec2(1,2)); // Will equal false!</p>
+								<pre><code></code></pre>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>v: <a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="invert" class="tsd-anchor"></a>
+					<h3>invert</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">invert<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:195</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a invert version of current vector<br>Vector2D(x,y).invert() maps to Vector2D(y,x)</p>
+								</div>
+								<a href="#note" id="note" style="color: inherit; text-decoration: none;">
+									<h1>Note</h1>
+								</a>
+								<p>Does not mutate <em>this</em> vector</p>
+								<pre><code class="language-typescript"><span class="hljs-keyword">import</span> vec2 <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;v2d&#x27;</span>
+
+<span class="hljs-keyword">let</span> v = vec2(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>);
+
+v.invert(); <span class="hljs-comment">// Will equal Vector2D(3,2)!</span></code></pre>
+							</div>
+							<h4 class="tsd-returns-title">Returns <a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="length" class="tsd-anchor"></a>
+					<h3>length</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">length<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:263</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns the length of the vector<br>Vector2D(x,y).length() maps to |Vector2D(x,y)|</p>
+								</div>
+								<a href="#note" id="note" style="color: inherit; text-decoration: none;">
+									<h1>Note</h1>
+								</a>
+								<p>Does not mutate <em>this</em> vector</p>
+								<pre><code class="language-typescript"><span class="hljs-keyword">import</span> vec2 <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;v2d&#x27;</span>
+
+<span class="hljs-keyword">let</span> v = vec2(<span class="hljs-number">3</span>,<span class="hljs-number">4</span>);
+
+v.length(); <span class="hljs-comment">// Will equal 5!</span></code></pre>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="middle" class="tsd-anchor"></a>
+					<h3>middle</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">middle<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:303</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns the middle between vector <em>v</em> and current vector<br>Vector2D(x,y).middle(Vector2D(p,q)) maps to Vector2D(x,y).add(Vector2D(p,q)).sca(0.5)</p>
+								</div>
+								<a href="#note" id="note" style="color: inherit; text-decoration: none;">
+									<h1>Note</h1>
+								</a>
+								<p>Does not mutate <em>this</em> vector</p>
+								<pre><code class="language-typescript"><span class="hljs-keyword">import</span> vec2 <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;v2d&#x27;</span>
+
+<span class="hljs-keyword">let</span> v = vec2(<span class="hljs-number">3</span>,<span class="hljs-number">4</span>);
+
+v.middle(vec2(<span class="hljs-number">5</span>,<span class="hljs-number">8</span>)); <span class="hljs-comment">// Will equal Vector2D(4,6)!</span></code></pre>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>v: <a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="round" class="tsd-anchor"></a>
+					<h3>round</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">round<span class="tsd-signature-symbol">(</span>sk<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:236</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a rounded version of current vector to the closest <em>sk</em><br>Vector2D(x,y).round(sk) maps to Vector2D(round(x, sk),round(y, sk))</p>
+								</div>
+								<a href="#note" id="note" style="color: inherit; text-decoration: none;">
+									<h1>Note</h1>
+								</a>
+								<p>Does not mutate <em>this</em> vector</p>
+								<pre><code class="language-typescript"><span class="hljs-keyword">import</span> vec2 <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;v2d&#x27;</span>
+
+<span class="hljs-keyword">let</span> v = vec2(<span class="hljs-number">3</span>,<span class="hljs-number">6</span>);
+
+v.round(<span class="hljs-number">10</span>); <span class="hljs-comment">// Will equal Vector2D(0,10)!</span></code></pre>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>sk: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="sca" class="tsd-anchor"></a>
+					<h3>sca</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">sca<span class="tsd-signature-symbol">(</span>s<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:116</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a scaled current vector with factor <em>s</em><br>Vector2D(x,y).sca(s) maps to Vector2D(s<em>x,s</em>y)</p>
+								</div>
+								<a href="#note" id="note" style="color: inherit; text-decoration: none;">
+									<h1>Note</h1>
+								</a>
+								<p>Does not mutate <em>this</em> vector</p>
+								<pre><code class="language-typescript"><span class="hljs-keyword">import</span> vec2 <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;v2d&#x27;</span>
+
+<span class="hljs-keyword">let</span> v = vec2(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>);
+
+v.sca(<span class="hljs-number">2</span>); <span class="hljs-comment">// Will equal Vector2D(4,6)!</span>
+v.sca(<span class="hljs-number">0.5</span>); <span class="hljs-comment">// Will equal Vector2D(1,1.5)!</span></code></pre>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>s: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="sub" class="tsd-anchor"></a>
+					<h3>sub</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">sub<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:96</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns a vector is the vector <em>v</em> subtracted from current vector<br>Vector2D(x,y).sub(Vector2D(p,q)) maps to Vector2D(x-p,y-q)</p>
+								</div>
+								<a href="#note" id="note" style="color: inherit; text-decoration: none;">
+									<h1>Note</h1>
+								</a>
+								<p>Does not mutate <em>this</em> vector</p>
+								<pre><code class="language-typescript"><span class="hljs-keyword">import</span> vec2 <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;v2d&#x27;</span>
+
+<span class="hljs-keyword">let</span> v = vec2(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>);
+
+v.sub(vec2(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>)); <span class="hljs-comment">// Will equal Vector2D(0,0)!</span>
+v.sub(vec2(-<span class="hljs-number">1</span>,-<span class="hljs-number">2</span>)); <span class="hljs-comment">// Will equal Vector2D(3,5)!</span></code></pre>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>v: <a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="times" class="tsd-anchor"></a>
+					<h3>times</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">times<span class="tsd-signature-symbol">(</span>v<span class="tsd-signature-symbol">: </span><a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:136</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Calculates the point wise multiplication of with <code>v</code>
+									Vector2D(x,y).times(Vector2D(p,q)) maps to Vector2D(x<em>p,y</em>q)</p>
+								</div>
+								<a href="#note" id="note" style="color: inherit; text-decoration: none;">
+									<h1>Note</h1>
+								</a>
+								<p>Does not mutate <em>this</em> vector</p>
+								<pre><code class="language-typescript"><span class="hljs-keyword">import</span> vec2 <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;v2d&#x27;</span>
+
+<span class="hljs-keyword">let</span> v = vec2(<span class="hljs-number">3</span>,<span class="hljs-number">4</span>);
+
+v.times(vec2(<span class="hljs-number">3</span>,<span class="hljs-number">4</span>)); <span class="hljs-comment">// Will equal Vector2D(9,16)!</span>
+v.times(vec2(<span class="hljs-number">4</span>,-<span class="hljs-number">3</span>)); <span class="hljs-comment">// Will equal Vector2D(12,-12)!</span></code></pre>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>v: <a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_index_.vector2d.html" class="tsd-signature-type">Vector2D</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="xsign" class="tsd-anchor"></a>
+					<h3>x<wbr>Sign</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">x<wbr>Sign<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:343</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns the sign of current vector&#39;s x</p>
+								</div>
+								<a href="#note" id="note" style="color: inherit; text-decoration: none;">
+									<h1>Note</h1>
+								</a>
+								<p>Does not mutate <em>this</em> vector</p>
+								<pre><code class="language-typescript"><span class="hljs-keyword">import</span> vec2 <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;v2d&#x27;</span>
+
+vec2(-<span class="hljs-number">13</span>,<span class="hljs-number">0</span>).xSign(); <span class="hljs-comment">// Will equal -1!</span>
+vec2(-<span class="hljs-number">5</span>,<span class="hljs-number">2</span>).xSign(); <span class="hljs-comment">// Will equal -1!</span>
+vec2(-<span class="hljs-number">5</span>,<span class="hljs-number">0</span>).xSign(); <span class="hljs-comment">// Will equal -1!</span>
+vec2(<span class="hljs-number">0</span>,<span class="hljs-number">2</span>).xSign(); <span class="hljs-comment">// Will equal 0!</span>
+vec2(<span class="hljs-number">3</span>,<span class="hljs-number">0</span>).xSign(); <span class="hljs-comment">// Will equal 1!</span>
+vec2(<span class="hljs-number">33</span>,<span class="hljs-number">0</span>).xSign(); <span class="hljs-comment">// Will equal 1!</span></code></pre>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="ysign" class="tsd-anchor"></a>
+					<h3>y<wbr>Sign</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">y<wbr>Sign<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in index.ts:364</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns the sign of current vector&#39;s y</p>
+								</div>
+								<a href="#note" id="note" style="color: inherit; text-decoration: none;">
+									<h1>Note</h1>
+								</a>
+								<p>Does not mutate <em>this</em> vector</p>
+								<pre><code class="language-typescript"><span class="hljs-keyword">import</span> vec2 <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;v2d&#x27;</span>
+
+vec2(<span class="hljs-number">0</span>,-<span class="hljs-number">13</span>).ySign(); <span class="hljs-comment">// Will equal -1!</span>
+vec2(<span class="hljs-number">2</span>,-<span class="hljs-number">5</span>).ySign(); <span class="hljs-comment">// Will equal -1!</span>
+vec2(<span class="hljs-number">0</span>,-<span class="hljs-number">5</span>).ySign(); <span class="hljs-comment">// Will equal -1!</span>
+vec2(<span class="hljs-number">2</span>,<span class="hljs-number">0</span>).ySign(); <span class="hljs-comment">// Will equal 0!</span>
+vec2(<span class="hljs-number">0</span>,<span class="hljs-number">3</span>).ySign(); <span class="hljs-comment">// Will equal 1!</span>
+vec2(<span class="hljs-number">0</span>,<span class="hljs-number">33</span>).ySign(); <span class="hljs-comment">// Will equal 1!</span></code></pre>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+					<li class="current tsd-kind-module">
+						<a href="../modules/_index_.html">&quot;index&quot;</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-module">
+						<a href="_index_.vector2d.html" class="tsd-kind-icon">Vector2D</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="_index_.vector2d.html#_x" class="tsd-kind-icon">_x</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="_index_.vector2d.html#_y" class="tsd-kind-icon">_y</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#x" class="tsd-kind-icon">x</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#y" class="tsd-kind-icon">y</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#abs" class="tsd-kind-icon">abs</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#add" class="tsd-kind-icon">add</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#angle" class="tsd-kind-icon">angle</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#apply" class="tsd-kind-icon">apply</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#dot" class="tsd-kind-icon">dot</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#dydx" class="tsd-kind-icon">dydx</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#equals" class="tsd-kind-icon">equals</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#invert" class="tsd-kind-icon">invert</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#length" class="tsd-kind-icon">length</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#middle" class="tsd-kind-icon">middle</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#round" class="tsd-kind-icon">round</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#sca" class="tsd-kind-icon">sca</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#sub" class="tsd-kind-icon">sub</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#times" class="tsd-kind-icon">times</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#xsign" class="tsd-kind-icon">x<wbr>Sign</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_index_.vector2d.html#ysign" class="tsd-kind-icon">y<wbr>Sign</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="../modules/_index_.html#vec2" class="tsd-kind-icon">vec2</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
