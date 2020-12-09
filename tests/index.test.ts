@@ -166,3 +166,13 @@ describe('Vector functions', function () {
         assert.equal(vec2(-1213123, 0).ySign(), 0)
     })
 })
+
+describe('Util functions', function () {
+	it('Should be that params works correctly', function () {
+		function add(x: number, y: number): number {
+			return x + y
+		}
+
+		assert.equal(5, add(...vec2(2, 3).params()))
+	})
+})
