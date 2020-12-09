@@ -1,6 +1,6 @@
 {
     "name": "@coastalwhite/v2d",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "An implementation of a 2 dimensional vector in Typescript",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
